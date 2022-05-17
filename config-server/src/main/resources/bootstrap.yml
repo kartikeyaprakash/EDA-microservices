@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/kartikeyaprakash/spring-cloud-config-server-repository
           #          default-label: main //Do this if the default branch in github is main, in my case it's master, hence not reqd
           username: kartikeyaprakash
-          password: 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
+          password: *
           clone-on-start: true
     fail-fast: true
   security:
